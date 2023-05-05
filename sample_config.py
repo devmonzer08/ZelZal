@@ -189,8 +189,8 @@ class Config(object):
     if OLDZED_REPO and not url(OLDZED_REPO):
         OLDZED_REPO = "https://github.com/Zed-Thon/ZED_USERBOT"
     OLDZED_REPOBRANCH = os.environ.get("OLDZED_REPOBRANCH", "oldzed")
-    VC_REPO = os.environ.get("VC_REPO", "https://github.com/Zed-Thon/ZVCPlayer")
-    VC_REPOBRANCH = os.environ.get("VC_REPOBRANCH", "zvcplayer")
+    VC_REPO = os.environ.get("VC_REPO", "https://github.com/Zeinn0/sezarvc")
+    VC_REPOBRANCH = os.environ.get("VC_REPOBRANCH", "main)
 
 class Production(Config):
     LOGGER = False
