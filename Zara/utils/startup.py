@@ -188,7 +188,7 @@ async def add_bot_to_logger_group(chat_id):
             LOGS.error(str(e))
 
 
-Zara = {"@UIU_II", "@Zed_Thon", "@zzzvrr", "@zzzlvv"}
+Zara = {"@UIU_II", "@pp_g3"}
 async def saves():
    for Cat in Zara:
         try:
