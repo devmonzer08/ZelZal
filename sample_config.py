@@ -35,7 +35,7 @@ class Config(object):
     )
     # External plugins repo
     EXTERNAL_REPO = os.environ.get("EXTERNAL_REPO", None)
-    VCMODE = os.environ.get("VCMODE", True)
+    VCMODE = os.environ.get("VCMODE", false)
     VCMODE = bool(VCMODE and (VCMODE.lower() != "false"))
     VC_SESSION = os.environ.get("VC_SESSION", None)
     # if you need badcat plugins use the following vars
